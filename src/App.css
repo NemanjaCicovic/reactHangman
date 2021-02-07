@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://cdn.wallpapersafari.com/54/67/lFErec.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+@media screen and (max-height: 700px) {
+  .App {
+    text-align: center;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://cdn.wallpapersafari.com/54/67/lFErec.jpg");
+    background-position: center center;
+    background-repeat: repeat;
+  }
+}
+
